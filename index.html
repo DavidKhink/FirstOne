@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="screen">
+    <div class="buttons">
+        <button class="clear" id="one">clear</button>
+        <button class="baki">Baki</button>
+        <button class="aot">Attack on Titan</button>
+        <button class="naruto">Naruto</button>
+        <button class="pieonece">One Piece</button>
+        <button class="demon">Demon Slayer</button>
+    </div>
+    <div class="main">
+
+    </div>
+</div>
+
+    <script src="api.js"></script>
+</body>
+<style>
+    #one{
+        background-color: green;
+    }
+    .buttons{
+        display: flex;
+        margin: auto;
+        gap: 10px;
+        margin-left: auto;
+    }
+    button{
+        font-size: 23px;
+        width: 100px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 10px;
+    }
+    .card{
+        background-color: black;
+        color: white;
+        width: 300px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap ;
+        gap: 20px;
+    }
+    .screen{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+</style>
+</html>
